@@ -13,6 +13,6 @@ public class SettingActivity extends Activity {
         setContentView(R.layout.setting);
 
         String name = getIntent().getExtras().getString("name");
-        Toast.makeText(SettingActivity.this, "欢迎来到"+name+"用户的设置", Toast.LENGTH_LONG).show();
+        Toast.makeText(SettingActivity.this, "欢迎来到"+name+"的用户设置", Toast.LENGTH_LONG).show();
     }
 }
